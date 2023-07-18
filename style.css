@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 50px 239px;
+}
+body {
+    background-color: skyblue;
+    background-image: url(white-cloud-blue-sky.jpg);
+
+}
+h1 {
+    text-align: center;
+    color: rgb(35, 15, 110);
+    
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+
+    
+}
+button:hover{
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    font-weight: bold;
+
+}
+
+input[type="search"] {
+    height: 40px;
+    width: 350px;
+    margin: 17px 0px 40px 190px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+.result h1 {
+
+    color: black;
+    font-size: 46px;
+}
+
+span {
+    font-size: 20px;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    margin-left: 200px;
+}
+h2 {
+    margin-left: 200px;
+}
+
+.lists {
+    border: 0px solid;
+    border-radius: 20px;
+    background-color: white;
+    width: 70%;
+    height: 300px;
+    margin: 10px 0px 0px 117px;
+    box-shadow: 4px 3px 5px -1px #dfdfdf;
+}
